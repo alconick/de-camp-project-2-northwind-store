@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: dim_employee
+    description:  dim_employee table select specific fields from the employees table and their associated territories
+    columns:
+      - name: employee_key
+        description: "The unique identifier for the dim_employee table."
+        tests:
+          - not_null
+          - unique
+
+      - name: employee_id
+        description: "The unique identifier for the employee."
+        
+      - name: employee_full_name
+        description: "The full name of the employee."
+        
+      - name: employee_title
+        description: "The job title of the employee."
+      - name: employee_birth_date
+        description: "The birth date of the employee."
+      - name: employee_hire_date
+        description: "The hire date of the employee."
+      - name: employee_city
+        description: "The city where the employee resides."
+      - name: employee_region
+        description: "The region where the employee resides."
+      - name: employee_country
+        description: "The country where the employee resides."
+      

@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: products
+    description: |
+      The `products` table contains detailed information about the products available in the Northwind database. Each record represents an individual product, including its name, supplier, category, pricing, and inventory details.
+    columns:
+      - name: product_id
+        description: The unique identifier for each product. This is the primary key for the table.
+        tests:
+          - not_null
+          - unique
+      - name: product_name
+        description: The name of the product.
+        tests:
+          - not_null
+      - name: supplier_id
+        description: The unique identifier for the supplier providing the product. This is a foreign key referencing the `suppliers` table.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('suppliers')
+              field: supplier_id
+      - name: category_id
+        description: The unique identifier for the category to which the product belongs. This is a foreign key referencing the `categories` table.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('categories')
+              field: category_id
+      - name: quantity_per_unit
+        description: The quantity of the product per unit.
+      - name: unit_price
+        description: The unit price of the product.
+      - name: units_in_stock
+        description: The number of units of the product currently in stock.
+      - name: units_on_order
+        description: The number of units of the product that have been ordered but not yet received.
+      - name: reorder_level
+        description: The minimum number of units that should be in stock before a reorder is triggered.
+      - name: discontinued
+        description: A boolean flag indicating whether the product has been discontinued.
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last refreshed from the source system.
+        tests:
+          - not_null

@@ -1,0 +1,60 @@
+[0m04:49:27.692184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d6f140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105da1be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105da1820>]}
+
+
+============================== 04:49:27.694035 | d0f82733-3799-4ac7-b55c-34df320cdc48 ==============================
+[0m04:49:27.694035 [info ] [MainThread]: Running with dbt=1.7.0
+[0m04:49:27.694328 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/aconc/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m04:49:27.694576 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/aconc/Documents/dec-project-2-northwind/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m04:49:27.695242 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_wall_clock_time": 0.026981583, "process_user_time": 0.726356, "process_kernel_time": 0.085491, "process_mem_max_rss": "106119168", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m04:49:27.695534 [debug] [MainThread]: Command `dbt docs generate` failed at 04:49:27.695477 after 0.03 seconds
+[0m04:49:27.695690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105da1a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105da39b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105da18b0>]}
+[0m04:49:27.695836 [debug] [MainThread]: Flushing usage events
+[0m04:49:45.065264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10894a8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10899d970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10899d5b0>]}
+
+
+============================== 04:49:45.067331 | bf4c8211-a628-4164-8822-2a1f6318c56e ==============================
+[0m04:49:45.067331 [info ] [MainThread]: Running with dbt=1.7.0
+[0m04:49:45.067642 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/aconc/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt docs serve', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m04:49:45.067909 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/aconc/Documents/dec-project-2-northwind/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m04:49:45.068622 [debug] [MainThread]: Resource report: {"command_name": "serve", "command_wall_clock_time": 0.025381166, "process_user_time": 0.727432, "process_kernel_time": 0.079017, "process_mem_max_rss": "105512960", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m04:49:45.068970 [debug] [MainThread]: Command `dbt docs serve` failed at 04:49:45.068900 after 0.03 seconds
+[0m04:49:45.069130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107083830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10894be00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10899d790>]}
+[0m04:49:45.069285 [debug] [MainThread]: Flushing usage events
+[0m08:18:13.303909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9879b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9dd190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9ddac0>]}
+
+
+============================== 08:18:13.306405 | 6b7dcd03-1b94-4790-8020-47fb95633ff0 ==============================
+[0m08:18:13.306405 [info ] [MainThread]: Running with dbt=1.7.0
+[0m08:18:13.306738 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/aconc/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt docs generate', 'send_anonymous_usage_stats': 'True'}
+[0m08:18:13.307012 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/aconc/Documents/dec-project-2-northwind/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m08:18:13.307902 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_wall_clock_time": 0.027699793, "process_user_time": 0.727613, "process_kernel_time": 0.085287, "process_mem_max_rss": "103989248", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:18:13.308196 [debug] [MainThread]: Command `dbt docs generate` failed at 08:18:13.308141 after 0.03 seconds
+[0m08:18:13.308351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9879b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a5ec3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7d34d0>]}
+[0m08:18:13.308502 [debug] [MainThread]: Flushing usage events
+[0m06:08:15.531016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074fbd40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107551df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107551af0>]}
+
+
+============================== 06:08:15.533870 | 789b4ec3-79a2-4cba-ba2c-932f39be86ab ==============================
+[0m06:08:15.533870 [info ] [MainThread]: Running with dbt=1.7.0
+[0m06:08:15.534197 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/aconc/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m06:08:15.534491 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/aconc/Documents/dec-project-2-northwind/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m06:08:15.539090 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_wall_clock_time": 0.03770975, "process_user_time": 0.749208, "process_kernel_time": 0.124173, "process_mem_max_rss": "104742912", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m06:08:15.539414 [debug] [MainThread]: Command `dbt docs generate` failed at 06:08:15.539347 after 0.04 seconds
+[0m06:08:15.539595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10420b620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074fbd40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074fba10>]}
+[0m06:08:15.539761 [debug] [MainThread]: Flushing usage events

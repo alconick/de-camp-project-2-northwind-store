@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: categories
+    description: The categories table contains information about the various categories of products available in the Northwind database 
+    columns:
+      - name: category_id
+        description: The unique identifier for the category
+        tests:
+          - unique
+          - not_null
+
+      - name: category_name
+        description: A description of the category
+        tests:
+          - not_null
+
+      - name: description 
+        description: A description of the category
+
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last updated in the source system
+        tests:
+          - not_null
+

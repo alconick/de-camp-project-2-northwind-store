@@ -1,0 +1,246 @@
+2024-07-10 07:33:11,320 - logger - INFO - Starting the application
+2024-07-10 07:33:11,324 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 07:33:11,332 - urllib3.connectionpool - DEBUG - http://localhost:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 07:33:11,332 - root - INFO - Connection is valid
+2024-07-10 07:33:11,332 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 07:33:11,485 - urllib3.connectionpool - DEBUG - http://localhost:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-10 07:33:11,486 - root - INFO - Job 35 is running. Checking job again in 10 seconds.
+2024-07-10 07:33:21,493 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:33:21,508 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 168514
+2024-07-10 07:33:21,510 - root - INFO - Job 35 is running. Checking job again in 10 seconds.
+2024-07-10 07:33:31,515 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:33:31,535 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 202847
+2024-07-10 07:33:31,538 - root - INFO - Job 35 is running. Checking job again in 10 seconds.
+2024-07-10 07:33:41,544 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:33:41,578 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 332306
+2024-07-10 07:33:41,583 - root - INFO - Job 35 is running. Checking job again in 10 seconds.
+2024-07-10 07:33:51,588 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:33:51,611 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 432654
+2024-07-10 07:33:51,619 - root - INFO - Job 35 is running. Checking job again in 10 seconds.
+2024-07-10 07:34:01,623 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:34:01,657 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 445660
+2024-07-10 07:34:01,664 - root - INFO - Job 35 has ran successfully.
+2024-07-10 07:34:01,664 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 07:48:18,221 - logger - INFO - Starting the application
+2024-07-10 07:48:18,225 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 07:48:18,229 - urllib3.connectionpool - DEBUG - http://localhost:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 07:48:18,230 - root - INFO - Connection is valid
+2024-07-10 07:48:18,230 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 07:48:18,371 - urllib3.connectionpool - DEBUG - http://localhost:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-10 07:48:18,372 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:23,378 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:23,398 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 164507
+2024-07-10 07:48:23,401 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:28,404 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:28,422 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 168063
+2024-07-10 07:48:28,424 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:33,430 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:33,450 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 198071
+2024-07-10 07:48:33,452 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:38,458 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:38,480 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 203066
+2024-07-10 07:48:38,483 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:43,488 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:43,496 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 281306
+2024-07-10 07:48:43,498 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:48,502 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:48,514 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 338002
+2024-07-10 07:48:48,516 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:53,521 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:53,551 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 429240
+2024-07-10 07:48:53,556 - root - INFO - Job 36 is running. Checking job again in 5 seconds.
+2024-07-10 07:48:58,558 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 07:48:58,570 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 441437
+2024-07-10 07:48:58,574 - root - INFO - Job 36 has ran successfully.
+2024-07-10 07:48:58,574 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 08:02:21,358 - logger - INFO - Starting the application
+2024-07-10 08:02:21,362 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:02:21,369 - urllib3.connectionpool - DEBUG - http://localhost:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 08:02:21,369 - root - INFO - Connection is valid
+2024-07-10 08:02:21,370 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:02:21,502 - urllib3.connectionpool - DEBUG - http://localhost:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-10 08:02:21,503 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:26,511 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:26,533 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 164366
+2024-07-10 08:02:26,536 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:31,542 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:31,560 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 167840
+2024-07-10 08:02:31,563 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:36,569 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:36,593 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 197570
+2024-07-10 08:02:36,597 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:41,606 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:41,640 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 201044
+2024-07-10 08:02:41,645 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:46,652 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:46,683 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 258512
+2024-07-10 08:02:46,685 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:51,693 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:51,723 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 313682
+2024-07-10 08:02:51,726 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:02:56,733 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:02:56,768 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 419337
+2024-07-10 08:02:56,774 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:03:01,784 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:03:01,816 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 430295
+2024-07-10 08:03:01,821 - root - INFO - Job 37 is running. Checking job again in 5 seconds.
+2024-07-10 08:03:06,827 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:03:06,852 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 441493
+2024-07-10 08:03:06,855 - root - INFO - Job 37 has ran successfully.
+2024-07-10 08:03:06,856 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 08:10:25,579 - logger - INFO - Starting the application
+2024-07-10 08:10:25,584 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:10:25,589 - urllib3.connectionpool - DEBUG - http://localhost:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 08:10:25,590 - root - INFO - Connection is valid
+2024-07-10 08:10:25,591 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:10:25,769 - urllib3.connectionpool - DEBUG - http://localhost:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-10 08:10:25,769 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:10:30,777 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:10:30,799 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 164866
+2024-07-10 08:10:30,801 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:10:35,805 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:10:35,811 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 169644
+2024-07-10 08:10:35,814 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:10:40,820 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:10:40,841 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 199208
+2024-07-10 08:10:40,844 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:10:45,850 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:10:45,859 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 233346
+2024-07-10 08:10:45,861 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:10:50,869 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:10:50,893 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 290439
+2024-07-10 08:10:50,897 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:10:55,901 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:10:55,920 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 412108
+2024-07-10 08:10:55,925 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:11:00,931 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:11:00,956 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 429877
+2024-07-10 08:11:00,961 - root - INFO - Job 38 is running. Checking job again in 5 seconds.
+2024-07-10 08:11:05,969 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:11:05,997 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 441576
+2024-07-10 08:11:06,004 - root - INFO - Job 38 has ran successfully.
+2024-07-10 08:11:06,004 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 08:14:58,378 - logger - INFO - Starting the application
+2024-07-10 08:14:58,382 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:14:58,387 - urllib3.connectionpool - DEBUG - http://localhost:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 08:14:58,387 - root - INFO - Connection is valid
+2024-07-10 08:14:58,388 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:14:58,508 - urllib3.connectionpool - DEBUG - http://localhost:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-10 08:14:58,508 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:03,514 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:03,528 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 164864
+2024-07-10 08:15:03,531 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:08,539 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:08,558 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 169413
+2024-07-10 08:15:08,561 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:13,569 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:13,591 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 199206
+2024-07-10 08:15:13,596 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:18,599 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:18,622 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 233346
+2024-07-10 08:15:18,625 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:23,630 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:23,640 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 303259
+2024-07-10 08:15:23,644 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:28,650 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:28,685 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 412027
+2024-07-10 08:15:28,689 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:33,696 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:33,730 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 430286
+2024-07-10 08:15:33,735 - root - INFO - Job 39 is running. Checking job again in 5 seconds.
+2024-07-10 08:15:38,741 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:15:38,774 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 441493
+2024-07-10 08:15:38,780 - root - INFO - Job 39 has ran successfully.
+2024-07-10 08:15:38,780 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 08:16:33,569 - logger - INFO - Starting the application
+2024-07-10 08:16:33,572 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:16:33,577 - urllib3.connectionpool - DEBUG - http://localhost:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 08:16:33,577 - root - INFO - Connection is valid
+2024-07-10 08:16:33,578 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8006
+2024-07-10 08:16:33,697 - urllib3.connectionpool - DEBUG - http://localhost:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-10 08:16:33,697 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:16:38,706 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:16:38,722 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 164867
+2024-07-10 08:16:38,724 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:16:43,729 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:16:43,748 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 169416
+2024-07-10 08:16:43,750 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:16:48,758 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:16:48,778 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 199429
+2024-07-10 08:16:48,781 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:16:53,786 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:16:53,805 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 242680
+2024-07-10 08:16:53,808 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:16:58,811 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:16:58,819 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 303288
+2024-07-10 08:16:58,821 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:17:03,826 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:17:03,852 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 413903
+2024-07-10 08:17:03,857 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:17:08,862 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:17:08,888 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 430325
+2024-07-10 08:17:08,894 - root - INFO - Job 40 is running. Checking job again in 5 seconds.
+2024-07-10 08:17:13,902 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:8000
+2024-07-10 08:17:13,934 - urllib3.connectionpool - DEBUG - http://localhost:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 441523
+2024-07-10 08:17:13,940 - root - INFO - Job 40 has ran successfully.
+2024-07-10 08:17:13,941 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 20:55:16,454 - logger - INFO - Starting the application
+2024-07-10 20:55:16,456 - root - ERROR - An error occurred: name 'AirbyteClient' is not defined
+2024-07-10 20:55:16,456 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 20:57:20,088 - logger - INFO - Starting the application
+2024-07-10 20:57:20,088 - root - ERROR - An error occurred: name 'AirbyteClient' is not defined
+2024-07-10 20:57:20,088 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 20:57:47,329 - logger - INFO - Starting the application
+2024-07-10 20:57:47,329 - root - ERROR - An error occurred: name 'AirbyteClient' is not defined
+2024-07-10 20:57:47,329 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 21:01:43,702 - logger - INFO - Starting the application
+2024-07-10 21:01:43,706 - root - ERROR - An error occurred: Failed to parse: //35.175.196.33:8000:8006/health
+2024-07-10 21:01:43,706 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 21:02:02,690 - logger - INFO - Starting the application
+2024-07-10 21:02:02,691 - root - ERROR - An error occurred: Failed to parse: http://35.175.196.33:8000:8006/health
+2024-07-10 21:02:02,691 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-10 21:02:15,892 - logger - INFO - Starting the application
+2024-07-10 21:02:15,896 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8006
+2024-07-10 21:02:16,344 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8006 "GET /health HTTP/1.1" 200 20
+2024-07-10 21:02:16,346 - root - INFO - Connection is valid
+2024-07-10 21:02:16,347 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8006
+2024-07-10 21:02:19,532 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8006 "POST /v1/jobs HTTP/1.1" 200 154
+2024-07-10 21:02:19,534 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:24,538 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:24,650 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 6111
+2024-07-10 21:02:24,651 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:29,659 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:29,784 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 14662
+2024-07-10 21:02:29,825 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:34,828 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:34,922 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 88374
+2024-07-10 21:02:35,006 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:40,014 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:40,155 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 97606
+2024-07-10 21:02:40,234 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:45,240 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:45,342 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 124911
+2024-07-10 21:02:45,463 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:50,471 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:50,609 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 166898
+2024-07-10 21:02:50,727 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:02:55,733 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:02:55,862 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 227597
+2024-07-10 21:02:56,019 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:03:01,024 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:03:01,154 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 313490
+2024-07-10 21:03:01,319 - root - INFO - Job 2 is running. Checking job again in 5 seconds.
+2024-07-10 21:03:06,326 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-10 21:03:06,462 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 324487
+2024-07-10 21:03:06,627 - root - INFO - Job 2 has ran successfully.
+2024-07-10 21:03:06,627 - logger - INFO - Finished populating the Northind data to snowflake
+2024-07-11 06:11:42,125 - logger - INFO - Starting the application
+2024-07-11 06:11:42,137 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8006
+2024-07-11 06:11:42,227 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8006 "GET /health HTTP/1.1" 200 20
+2024-07-11 06:11:42,229 - root - INFO - Connection is valid
+2024-07-11 06:11:42,230 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8006
+2024-07-11 06:11:42,848 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8006 "POST /v1/jobs HTTP/1.1" 200 155
+2024-07-11 06:11:42,849 - root - INFO - Job 14 is running. Checking job again in 5 seconds.
+2024-07-11 06:11:47,854 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 35.175.196.33:8000
+2024-07-11 06:11:47,942 - urllib3.connectionpool - DEBUG - http://35.175.196.33:8000 "POST /api/v1/jobs/get HTTP/1.1" 200 6122
+2024-07-11 06:11:47,948 - root - INFO - Job 14 is running. Checking job again in 5 seconds.

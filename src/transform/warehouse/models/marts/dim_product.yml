@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: dim_product
+    description: "dim_product contains specific fields from the products table, including supplier and category details."
+    columns:
+      - name: product_key
+        description: "The unique identifier for the dim_product table."
+        tests:
+          - not_null
+          - unique
+      - name: product_id
+        description: "The unique identifier for the product."
+        
+      - name: product_name
+        description: "The name of the product."
+        
+      - name: supplier_id
+        description: "The unique identifier for the supplier of the product."
+      - name: supplier_name
+        description: "The name of the supplier's company."
+      - name: supplier_contact
+        description: "The name of the supplier's primary contact."
+      - name: supplier_contact_title
+        description: "The title of the supplier's primary contact."
+      - name: supplier_address
+        description: "The address of the supplier's company."
+      - name: supplier_city
+        description: "The city where the supplier's company is located."
+      - name: supplier_country
+        description: "The country where the supplier's company is located."
+      - name: category_id
+        description: "The unique identifier for the product category."
+      - name: category_name
+        description: "The name of the product category."
+      - name: category_description
+        description: "The description of the product category."
+      - name: quantity_per_unit
+        description: "The quantity of the product per unit."
+      - name: unit_price
+        description: "The price per unit of the product."
+      - name: units_in_stock
+        description: "The number of units of the product in stock."
+      - name: units_on_order
+        description: "The number of units of the product on order."
+      - name: reorder_level
+        description: "The reorder level of the product."
+      - name: discontinued
+        description: "Whether the product is discontinued."
+

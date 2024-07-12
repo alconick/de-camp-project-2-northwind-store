@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: order_details
+    description: |
+      The `order_details` table contains detailed information about the individual products included in each order. Each record represents a line item in an order, including pricing, quantity, and discount details.
+    columns:
+      - name: order_id
+        description: The unique identifier for each order. This is a foreign key referencing the `orders` table.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('orders')
+              field: order_id
+      - name: product_id
+        description: The unique identifier for the product included in the order. This is a foreign key referencing the `products` table.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('products')
+              field: product_id
+      - name: unit_price
+        description: The unit price of the product included in the order.
+        tests:
+          - not_null
+          - column_greater_or_equal:
+              value: 0
+      - name: quantity
+        description: The quantity of the product included in the order.
+        tests:
+          - not_null
+          - column_greater_or_equal:
+              value: 0
+      - name: discount
+        description: The discount applied to the product in the order.
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last refreshed from the source system.
+        tests:
+          - not_null

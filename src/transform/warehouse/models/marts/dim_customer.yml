@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: "dim_customer contains specific fields from the customers table."
+    columns:
+      - name: customer_key
+        description: "The unique identifier for the dim_customer."
+        tests:
+          - not_null
+          - unique        
+          
+      - name: customer_id
+        description: "The unique identifier for the customer."
+        
+      - name: customer_contact_name
+        description: "The name of the primary contact at the customer's company."
+                          
+      - name: customer_contact_title
+        description: "The title of the primary contact at the customer's company."
+      - name: customer_company_name
+        description: "The name of the customer's company."
+      - name: customer_city
+        description: "The city where the customer's company is located."
+      - name: customer_country
+        description: "The country where the customer's company is located."
+      - name: customer_last_update
+        description: "The last time the customer's information was updated."

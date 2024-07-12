@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: |
+      The `fact_sales` model contains detailed information about orders, including product details, shipment information, and additional calculated metrics. This model joins the `orders` and `order_details` tables to provide a comprehensive view of each order.
+    columns:
+      - name: sales_key
+        tests:
+          - unique
+          - not_null
+      - name: product_key
+        
+      - name: customer_key    
+        
+      - name: employee_key
+        
+      - name: order_date
+        description: The date when the order was placed.
+        
+      - name: order_id
+        description: The unique identifier for each order. This is the primary key for the `orders` table and a foreign key in the `order_details` table.
+        
+      - name: customer_id
+        description: The unique identifier for the customer who placed the order. This is a foreign key referencing the `customers` table.
+        
+      - name: product_id
+        description: The unique identifier for the product included in the order. This is a foreign key referencing the `products` table.
+        
+      - name: employee_id
+        description: The unique identifier for the employee who handled the order. This is a foreign key referencing the `employees` table.
+        
+      - name: order_required_date
+        description: The date by which the order is required to be delivered.
+      - name: order_shipped_date
+        description: The date when the order was shipped.
+      - name: order_shipping_company
+        description: The shipping company used to deliver the order.
+      - name: order_freight
+        description: The freight cost for shipping the order.
+      - name: order_unit_price
+        description: The unit price of the product included in the order.
+      - name: order_quantity
+        description: The quantity of the product included in the order.
+      - name: order_discount
+        description: The discount applied to the product in the order.
+      - name: order_ship_name
+        description: The name of the recipient for the shipped order.
+      - name: order_ship_address
+        description: The street address where the order was shipped.
+      - name: order_ship_city
+        description: The city where the order was shipped.
+      - name: order_revenue
+        description: The total revenue generated from the order (calculated as unit price multiplied by quantity).
+      - name: order_days_to_ship
+        description: The number of days taken to ship the order (calculated as the difference between shipped date and order date).
+      - name: is_delayed_order
+        description: A flag indicating whether the order was delayed (1) or not (0), based on whether the shipped date is later than the required date.
+      - name: order_ship_region
+        description: The region where the order was shipped.
+      - name: order_ship_postal_code
+        description: The postal code for the shipping address.
+      - name: order_ship_country
+        description: The country where the order was shipped.

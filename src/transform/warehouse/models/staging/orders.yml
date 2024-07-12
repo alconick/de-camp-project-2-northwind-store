@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: orders
+    description: |
+      The `orders` table contains detailed information about customer orders in the Northwind database. Each record represents an individual order, including customer and employee details, order dates, shipping information, and freight costs.
+    columns:
+      - name: order_id
+        description: The unique identifier for each order. This is the primary key for the table.
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: The unique identifier for the customer who placed the order. This is a foreign key referencing the `customers` table.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('customers')
+              field: customer_id
+      - name: employee_id
+        description: The unique identifier for the employee who handled the order. This is a foreign key referencing the `employees` table.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('employees')
+              field: employee_id
+      - name: order_date
+        description: The date when the order was placed.
+        tests:
+          - not_null
+      - name: required_date
+        description: The date by which the order is required to be delivered.
+      - name: shipped_date
+        description: The date when the order was shipped.
+      - name: ship_via
+        description: The shipping method used to deliver the order.
+      - name: freight
+        description: The freight cost for shipping the order.
+      - name: ship_name
+        description: The name of the recipient for the shipped order.
+      - name: ship_address
+        description: The street address where the order was shipped.
+      - name: ship_city
+        description: The city where the order was shipped.
+      - name: ship_region
+        description: The region where the order was shipped.
+      - name: ship_postal_code
+        description: The postal code for the shipping address.
+      - name: ship_country
+        description: The country where the order was shipped.
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last refreshed from the source system.
+        tests:
+          - not_null

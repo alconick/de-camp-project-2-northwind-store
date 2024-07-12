@@ -1,0 +1,30 @@
+warehouse:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: iqbnhkn-yl40091
+
+      # User/password auth
+      user: '{{ env_var("SNOWFLAKE_USERNAME") }}'
+      password: '{{ env_var("SNOWFLAKE_PASSWORD") }}'
+      role: accountadmin
+      database: sdw_new_feat
+      warehouse: xsmall_wh
+      schema: raw
+      threads: 12
+      client_session_keep_alive: False
+
+    prod:
+      type: snowflake
+      account: iqbnhkn-yl40091
+
+      # User/password auth
+      user:  '{{ env_var("SNOWFLAKE_USERNAME") }}'
+      password: '{{ env_var("SNOWFLAKE_PASSWORD") }}'
+      role: accountadmin
+      database: sdw
+      warehouse: xsmall_wh
+      schema: raw
+      threads: 12
+      client_session_keep_alive: False      

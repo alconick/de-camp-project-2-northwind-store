@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: suppliers
+    description: |
+      The `suppliers` table contains information about the suppliers who provide products to the Northwind company. Each record represents a supplier and includes contact and address details.
+    columns:
+      - name: supplier_id
+        description: The unique identifier for each supplier. This is the primary key for the table.
+        tests:
+          - not_null
+          - unique
+      - name: company_name
+        description: The name of the supplier's company.
+        tests:
+          - not_null
+      - name: contact_name
+        description: The name of the primary contact person at the supplier's company.
+      - name: contact_title
+        description: The title of the primary contact person at the supplier's company.
+      - name: address
+        description: The street address of the supplier.
+      - name: city
+        description: The city where the supplier is located.
+      - name: region
+        description: The region or state where the supplier is located.
+      - name: postal_code
+        description: The postal code for the supplier's address.
+      - name: country
+        description: The country where the supplier is located.
+      - name: phone
+        description: The phone number for contacting the supplier.
+      - name: fax
+        description: The fax number for contacting the supplier.
+      - name: homepage
+        description: The homepage URL of the supplier.
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last refreshed from the source system.
+        tests:
+          - not_null

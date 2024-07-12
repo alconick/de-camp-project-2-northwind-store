@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: customers
+    description: The `customers` table contains information about the customers who purchase products from the Northwind database. Each record represents a unique customer and includes their contact details and address information.
+    columns:
+      - name: customer_id
+        description: The unique identifier for each customer. This is the primary key for the table.
+        tests:
+          - unique
+          - not_null
+      
+      - name: contact_name
+        description: The name of the primary contact person at the customer's company.
+      
+      - name: company_name
+        description: The name of the customer's company.
+
+      - name: contact_title
+        description: The title of the primary contact person at the customer's company.
+      
+      - name: address
+        description: The street address of the customer.
+      
+      - name: city
+        description: The city where the customer is located.
+        tests:
+          - not_null
+        
+      - name: country
+        description: The country where the customer is located.
+      
+      - name: region
+        description: The region or state where the customer is located.
+      
+      - name: postal_code
+        description: The postal code for the customer's address.
+      
+      - name: phone
+        description: The phone number for the customer.
+      
+      - name: fax
+        description: The fax number for the customer.
+      
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last refreshed from the source system.
+        tests:
+          - not_null

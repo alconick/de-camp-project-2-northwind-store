@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: shippers
+    description: |
+      The `shippers` table contains information about the shipping companies used in the Northwind database. Each record represents a shipping company and includes its contact details.
+    columns:
+      - name: shipper_id
+        description: The unique identifier for each shipper. This is the primary key for the table.
+        tests:
+          - not_null
+          - unique
+      - name: company_name
+        description: The name of the shipping company.
+        tests:
+          - not_null
+      - name: phone
+        description: The phone number for contacting the shipping company.
+        tests:
+          - not_null
+      - name: last_update
+        description: The timestamp of the last data extraction, indicating when the data was last refreshed from the source system.
+        tests:
+          - not_null
