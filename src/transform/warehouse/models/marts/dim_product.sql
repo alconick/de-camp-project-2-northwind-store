@@ -1,5 +1,14 @@
 
 
+
+{{
+    config(
+        materialized='incremental',
+		unique_key='product_key',
+		incremental_strategy='delete+insert',
+    )
+}}
+
 SELECT 
     {{dbt_utils.generate_surrogate_key(['p.product_id']) }} as product_key,
     p.product_id,
@@ -19,8 +28,14 @@ SELECT
     p.units_in_stock,
     p.units_on_order,
     p.reorder_level,
-    p.discontinued
+    p.discontinued,
+    p.last_update product_last_update
 FROM {{ref('products') }} p
 LEFT JOIN {{ref('suppliers')}} s ON p.supplier_id = s.supplier_id
 LEFT JOIN {{ref('categories')}} c ON p.category_id = c.category_id
 
+
+
+{% if is_incremental() %}
+	where product_last_update > (select max(product_last_update) from {{ this }} )
+{% endif %}
