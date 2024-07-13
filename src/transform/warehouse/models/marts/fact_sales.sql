@@ -39,10 +39,10 @@ SELECT
 FROM {{ref('orders') }} o
 LEFT JOIN {{ref('order_details')}} od ON o.order_id = od.order_id
 LEFT JOIN {{ref('shippers')}} sh ON o.ship_via = sh.shipper_id
-order by o.order_date
-
-
 
 {% if is_incremental() %}
 	where order_last_update > (select max(order_last_update) from {{ this }} )
+    
 {% endif %}
+
+order by o.order_date

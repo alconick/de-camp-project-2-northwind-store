@@ -1,0 +1,4 @@
+version: 2
+
+models:
+  - name: customer_spend_accumulating_fact

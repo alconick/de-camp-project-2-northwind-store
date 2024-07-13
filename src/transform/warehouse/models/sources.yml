@@ -19,6 +19,7 @@ sources:
       - name: dim_date
       - name: dim_fact_sales
       - name: obt
+      - name: customer_spend_accumulating_fact
 
       
       
