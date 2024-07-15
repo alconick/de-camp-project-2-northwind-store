@@ -4,6 +4,10 @@
 
     SELECT 
         customer_key,
+        min(order_date)    as customer_first_order_date,
+        max(order_date)    as customer_most_recent_order_date,
+        count(order_key)   as customer_total_orders,
+        sum(order_revenue) as customer_total_spend,
         {% for category_name in category %}
         sum(case when category_name = '{{ category_name }}' then order_revenue else 0 end) as {{ category_name.replace("-", "_").replace("/", "_").replace(" ", "_") }}_total_spent
         {%- if not loop.last -%}
